@@ -6,6 +6,9 @@
 //
 //
 
+import Foundation
+import UIKit
+
 struct TRMosaicColumns {
     
     var columns:[TRMosaicColumn]
@@ -30,7 +33,7 @@ struct TRMosaicColumns {
 
 struct TRMosaicColumn {
     
-    var columnHeight:CGFloat
+    var columnHeight: CGFloat
     
     init() {
         columnHeight = 0
